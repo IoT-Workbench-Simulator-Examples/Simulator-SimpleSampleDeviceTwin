@@ -1,5 +1,5 @@
 {
-  "name": "iot-workbench-simulator-simple-sample",
+  "name": "iot-workbench-simulator-simple-sample-twin",
   "version": "0.1.0",
   "main": "simple_sample_device_twin.js",
   "dependencies": {
