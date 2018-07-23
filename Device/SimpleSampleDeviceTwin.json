@@ -1,10 +1,16 @@
 {
     "Twin":{
         "Report" : {
+            "Variable" : [{
+                "Name": "Temperture" ,
+                "Min" : 20,
+                "Max" : 40,
+                "Digits" : 2
+            }],
             "Content" :{
                 "firmwareVersion":"1.2.1",
                 "weather":{
-                    "temperature": 72,
+                    "temperature": "{{Temperture}}",
                     "humidity": 17
                 }
             },
